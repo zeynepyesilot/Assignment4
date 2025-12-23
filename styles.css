@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefcb6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #e75a79;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #cf93ed;
+}
+
+#statusMessage {
+    margin: 15px 0;
+    font-style: italic;
+    color: #0000ff;
+    min-height: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border: 1px solid #f6ee9a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+
+.task.completed span {
+    text-decoration: line-through;
+    color: #f4a0ee;
+}
+
+.task-actions button {
+    margin-left: 5px;
+    font-size: 0.8rem;
+    padding: 5px 8px;
+}
+
+.btn-toggle {
+    background-color: #9dbfe9;
+}
+
+.btn-delete {
+    background-color: #e99dc4;
+}
